@@ -1,4 +1,15 @@
 # st2195_assignment_3
+
+This repository contains the code for Practice Assignment 3 of the ST2195 course.
+
+The SQLite database is constructed using the **Data Expo 2009 airline on-time performance dataset**, 
+which is publicly available via the **Harvard Dataverse**.
+
+The data were downloaded from:
+https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HG7NV7
+
+Due to the size of the database, the SQLite file is not included in this repository.
+
 1. a README.md file with a short markdown description of this assignment and a
 reference to the Data Expo 2009 data, and the Harvard Dataverse [1 point]
 2. a folder called “r_sql” with a R code for constructing the database (from the csv
@@ -9,6 +20,3 @@ on sqlite3 [1.75 points]
 4. A simplified solution for the query in Q4 in either R or Python (placed either in
 the R or Python *_sql folder) [1.75 points]
 
-Note that the database file should not be placed in the GitHub repository (it is quite
-large). Also, the R and Python scripts should save the output of the queries in csv within
-their respective folders [1 point each].
